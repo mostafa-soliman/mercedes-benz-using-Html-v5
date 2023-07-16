@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+main {
+  width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+main #social {
+  position: absolute;
+  top: 15px;
+  left: 950px;
+  /* display: block; */
+}
+
+/*عندي مشكله في تظبيط ارتفاع nav and hover  */
+#nav {
+  height: 40px;
+  line-height: 40px; /* ده اللي حلها ليا*/
+  border-top: 2px solid #5c5a5a;
+  margin: 10px;
+}
+#nav > a {
+  text-decoration: none;
+  color: #5a5757;
+  font-weight: bold;
+  padding: 15px;
+}
+
+#nav > a:hover {
+  background-color: #0cb2f3;
+}
+/* active not work */
+#nav > a:active {
+  background-color: #1f742d;
+}
+
+#img-banner {
+  border: 2px solid #fff;
+}
+#img-banner > img {
+  width: 100%;
+  display: block;
+}
+
+#container {
+  background-color: #ccc;
+}
+
+h2 {
+  color: #0cb2f3;
+  border-bottom: 2px solid #5c5a5a;
+  margin: 10px;
+  padding-top: 30px;
+}
+
+p {
+  padding: 20px;
+  text-align: justify;
+}
+
+ui > li {
+  list-style-position: inside;
+  margin-left: 40px;
+}
+
+h4 {
+  color: orange;
+  margin: 10px;
+}
+
+h4 > span {
+  color: #0cb2f3;
+}
+
+article {
+  float: left;
+  width: 69%;
+}
+/* معرفتش اوسطنهم الا كده */
+article img {
+  width: 40%;
+  border: 2px solid #ccc;
+  outline: 1px solid #fff;
+  /* text-align: center; */
+  /* margin:0 auto; */
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+aside {
+  float: right;
+  width: 28%;
+}
+
+footer {
+  border-top: 2px solid #5c5a5a;
+  padding-top: 20px;
+
+  clear: both;
+}
+footer > p {
+  text-align: center;
+  padding: 5px;
+}
